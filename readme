@@ -1,0 +1,12 @@
+#Welcome here
+
+App is almost ready, there is need to refactor some parts of the code, still I want to add gist copy function.
+
+
+To run:
+
+1. yarn install
+2. node server.js
+
+Some parts of the code are useless(for now) but are ready to implement routing for next functionality.
+I need to implement some tests for this app

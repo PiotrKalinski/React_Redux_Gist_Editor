@@ -1,0 +1,4 @@
+export const EDITOR_ON = 'EDITOR_ON';
+export const DISCARD_CHANGES = 'DISCARD_CHANGES';
+export const UPDATE_DESCRIPTION = 'UPDATE_DESCRIPTION';
+export const UPDATE_FILES = 'UPDATE_FILES';

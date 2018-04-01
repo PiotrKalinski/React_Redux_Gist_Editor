@@ -1,0 +1,35 @@
+{
+    "extends": "node-style-guide",
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true,
+        "modules": true,
+        "experimentalObjectRestSpread": true
+      }
+    },
+    "rules": {
+      "array-bracket-spacing": [ 2, "always" ],
+      "brace-style": [ 2, "stroustrup", { "allowSingleLine": true } ],
+      "computed-property-spacing": [ 2, "never" ],
+      "keyword-spacing": [ 2, { "before": true, "after": true } ],
+      "max-len": [ 1, 120 ],
+      "max-statements": [ 0 ],
+      "new-cap": [ 0 ],
+      "object-curly-spacing": [ 2, "always" ],
+      "semi": [ 2, "always" ],
+      "space-after-keywords": "off",
+      "space-in-brackets": [ 0 ],
+      "react/jsx-uses-vars": [ 2 ],
+      "react/jsx-uses-react": [ 2 ]
+    },
+    "env": {
+      "browser": true,
+      "es6": true,
+      "node": true
+    },
+    "plugins": [
+      "react"
+    ]
+  }
+  

@@ -1,0 +1,44 @@
+@import "~normalize.css/normalize.css";
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&subset=latin-ext');
+
+@import './root';
+@import './gist-list';
+@import './var';
+@import './gist-viewer';
+@import './user-search';
+@import './user-gist-list';
+body {
+  color: #4d4d4d;
+  font-family: 'Lato', sans-serif;
+  overflow: hidden;
+}
+
+.app {
+  background: #ffffff;
+  display: flex;
+
+  // Globals
+  .date { font-size: 12px; }
+  button {
+    border: none;
+    border-bottom: 1px solid #BBBBBB;
+    background: white;
+    color: #4d4d4d;
+    padding: 0 0 1px 0;
+    margin: 5px 5px 5px 0;
+    font-size: 14px;
+    &:hover { opacity: 0.6 };
+  }
+  a {
+    text-decoration: none;
+    color: #0D217E;
+  }
+
+  .menu {
+    width: 220px;
+    border-right: 1px solid @medium-gray;
+    height: 100vh;
+    background: #0D217E;
+  }
+
+}

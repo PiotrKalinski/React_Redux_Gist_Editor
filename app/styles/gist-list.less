@@ -1,0 +1,42 @@
+.gists-list {
+    height: 100vh;
+    width: 200px;
+    overflow: auto;
+    border-right: 1px solid @medium-gray;
+    border-top: 1px solid @medium-gray;
+    margin-left:-120px;
+    left:1px;
+    margin-top: 350px;
+    .gist-item {
+      width: 100%;
+      height: 110px;
+      border-bottom: 1px solid @medium-gray;
+      cursor: pointer;
+  
+      &.selected {
+        background: @twitter-blue;
+        color: white;
+        .meta h4 { color: white };
+      }
+  
+      .meta, .description {
+        padding: 10px;
+      }
+  
+      .meta {
+        h4 {
+          margin: 0 0 5px 0;
+          font-size: 14px;
+          color: black;
+        }
+      }
+  
+      .description {
+        font-size: 13px;
+      }
+    }
+  }
+
+
+  
+  
